@@ -8,15 +8,13 @@ type ScreenContentProps = {
   children?: React.ReactNode;
 };
 
-export const ScreenContent = ({ title, path, children }: ScreenContentProps) => {
+export const ScreenContent = ({  path, children }: ScreenContentProps) => {
   return (
     <View className={styles.container}>
-      <Header />
+      <Header headerTitle="一覧" />
     </View>
   );
 };
 const styles = {
   container: `items-center flex-1 justify-center bg-gray-600`,
-  separator: `h-[1px] my-7 w-4/5 bg-green-500`,
-  title: `text-xl font-bold`,
 };

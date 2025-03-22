@@ -1,5 +1,6 @@
-import { ScreenContent } from '~/app/ScreenContent';
 import { StatusBar } from 'expo-status-bar';
+
+import { ScreenContent } from '~/app/ScreenContent';
 
 import './global.css';
 
